@@ -26,6 +26,8 @@ list(
     drc_mask,
     rast("~/Documents/tki_work/vector_atlas/africa_spatial_data/data/raster/cod_mask.tif")
   ),
+
+
   tar_terra_rast(
     drc_lyrs,
     rast("~/Documents/tki_work/vector_atlas/africa_spatial_data/outputs/raster/africa_static_vars_std.tif") |>
